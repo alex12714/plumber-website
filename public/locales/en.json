@@ -157,6 +157,24 @@
     "review2": "Installed a new bathroom for us. Clean work, fair price, and very polite. Will definitely call again.",
     "review3": "Emergency call at midnight, they arrived in 40 minutes. Saved our apartment from flooding. Thank you!"
   },
+  "gallery": {
+    "title": "Our Recent Work",
+    "subtitle": "Quality craftsmanship you can trust",
+    "bathroom": "Bathroom",
+    "kitchen": "Kitchen",
+    "luxury": "Luxury Install",
+    "professional": "Professional Team",
+    "faucets": "Faucets",
+    "shower": "Shower",
+    "pipes": "Pipe Work",
+    "heating": "Heating"
+  },
+  "cta": {
+    "title": "Need Help Right Now?",
+    "subtitle": "Our emergency team is available 24/7. One call and we're on our way.",
+    "callNow": "Call +371 22532304",
+    "bookOnline": "Book Online"
+  },
   "contact": {
     "title": "Contact Us",
     "subtitle": "Get in touch for questions or emergency service",

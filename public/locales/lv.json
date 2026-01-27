@@ -156,6 +156,24 @@
     "review2": "Uzstādīja mums jaunu vannasistabu. Tīrs darbs, godīga cena un ļoti pieklājīgi. Noteikti zvanīšu vēlreiz.",
     "review3": "Avārijas zvans pusnaktī, ieradās 40 minūtēs. Izglāba mūsu dzīvokli no applūšanas. Paldies!"
   },
+  "gallery": {
+    "title": "Mūsu jaunākie darbi",
+    "subtitle": "Kvalitatīvs meistardarbs, kam varat uzticēties",
+    "bathroom": "Vannasistaba",
+    "kitchen": "Virtuve",
+    "luxury": "Luksusa uzstādīšana",
+    "professional": "Profesionāla komanda",
+    "faucets": "Krāni",
+    "shower": "Duša",
+    "pipes": "Cauruļvadi",
+    "heating": "Apkure"
+  },
+  "cta": {
+    "title": "Vajadzīga palīdzība tūlīt?",
+    "subtitle": "Mūsu avārijas komanda ir pieejama 24/7. Viens zvans un mēs esam ceļā.",
+    "callNow": "Zvanīt +371 22532304",
+    "bookOnline": "Rezervēt tiešsaistē"
+  },
   "modal": {
     "successTitle": "Rezervācija apstiprināta!",
     "successMessage": "Paldies! Mēs nosūtījām apstiprinājuma e-pastu. Mūsu komanda drīz sazināsies ar jums.",
