@@ -402,11 +402,94 @@ async function handleSubmit(e) {
   }
 }
 
+// Mapbox configuration
+const MAPBOX_TOKEN = 'pk.eyJ1IjoibGFub3Nsb2dpYyIsImEiOiJjbGY0dHhpazcwMnU5NDRxam5iaGNhMHQzIn0.v51zfyuwF7UrT-E2_w_t5w';
+let map = null;
+let marker = null;
+let geocoder = null;
+let mapInitialized = false;
+
+function initMapbox() {
+  if (mapInitialized) return;
+
+  mapboxgl.accessToken = MAPBOX_TOKEN;
+
+  // Initialize map centered on Riga
+  map = new mapboxgl.Map({
+    container: 'address-map',
+    style: 'mapbox://styles/mapbox/streets-v12',
+    center: [24.1052, 56.9496], // Riga coordinates
+    zoom: 12
+  });
+
+  // Add marker
+  marker = new mapboxgl.Marker({ color: '#1e40af' })
+    .setLngLat([24.1052, 56.9496])
+    .addTo(map);
+
+  // Initialize geocoder
+  geocoder = new MapboxGeocoder({
+    accessToken: mapboxgl.accessToken,
+    mapboxgl: mapboxgl,
+    placeholder: 'Enter your address...',
+    countries: 'lv',
+    proximity: { longitude: 24.1052, latitude: 56.9496 },
+    language: window.i18n?.currentLocale || 'en',
+    marker: false
+  });
+
+  // Add geocoder to container
+  const geocoderContainer = document.getElementById('geocoder-container');
+  geocoderContainer.innerHTML = '';
+  geocoderContainer.appendChild(geocoder.onAdd(map));
+
+  // Handle result selection
+  geocoder.on('result', (e) => {
+    const coords = e.result.center;
+    const place = e.result;
+
+    // Update hidden fields
+    document.getElementById('address').value = place.place_name;
+    document.getElementById('address-lat').value = coords[1];
+    document.getElementById('address-lng').value = coords[0];
+
+    // Update city and postal code if available
+    if (place.context) {
+      place.context.forEach(ctx => {
+        if (ctx.id.startsWith('place')) {
+          document.getElementById('city').value = ctx.text;
+        }
+        if (ctx.id.startsWith('postcode')) {
+          document.getElementById('postal-code').value = ctx.text;
+        }
+      });
+    }
+
+    // Update marker and map
+    marker.setLngLat(coords);
+    map.flyTo({ center: coords, zoom: 15 });
+  });
+
+  // Handle clearing
+  geocoder.on('clear', () => {
+    document.getElementById('address').value = '';
+    document.getElementById('address-lat').value = '';
+    document.getElementById('address-lng').value = '';
+  });
+
+  mapInitialized = true;
+}
+
 // Update final price when entering step 4
 const origGoToStep = goToStep;
 goToStep = function(step) {
   origGoToStep(step);
   if (step === 4) {
     updateFinalPrice();
+    // Initialize Mapbox with a small delay to ensure container is visible
+    setTimeout(() => {
+      initMapbox();
+      if (map) map.resize();
+    }, 100);
   }
 };

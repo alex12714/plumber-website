@@ -150,6 +150,19 @@
     "transparentDesc": "No hidden fees. Pay only 30% deposit, rest after job completion",
     "yearsExp": "Years of Experience"
   },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "subtitle": "Real feedback from real customers",
+    "review1": "Fast response and professional work. Fixed our burst pipe within an hour. Highly recommend!",
+    "review2": "Installed a new bathroom for us. Clean work, fair price, and very polite. Will definitely call again.",
+    "review3": "Emergency call at midnight, they arrived in 40 minutes. Saved our apartment from flooding. Thank you!"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch for questions or emergency service",
+    "emergency": "24/7 Emergency",
+    "emailUs": "Email us"
+  },
   "hero": {
     "badge": "24/7 Emergency Service",
     "title": "Professional Plumbing Services",

@@ -118,6 +118,7 @@
   },
   "contact": {
     "title": "Sazinieties ar mums",
+    "subtitle": "Sazinieties ar jautājumiem vai avārijas dienestam",
     "emergency": "24/7 avārijas",
     "emailUs": "Rakstiet mums"
   },
@@ -147,6 +148,13 @@
     "transparent": "Caurskatāmas cenas",
     "transparentDesc": "Nav slēptu maksu. Maksājiet tikai 30% avansu, atlikumu pēc darba pabeigšanas",
     "yearsExp": "Gadu pieredze"
+  },
+  "testimonials": {
+    "title": "Ko saka mūsu klienti",
+    "subtitle": "Patiesas atsauksmes no īstiem klientiem",
+    "review1": "Ātra reakcija un profesionāls darbs. Salaboja plīsušo cauruli stundas laikā. Ļoti iesaku!",
+    "review2": "Uzstādīja mums jaunu vannasistabu. Tīrs darbs, godīga cena un ļoti pieklājīgi. Noteikti zvanīšu vēlreiz.",
+    "review3": "Avārijas zvans pusnaktī, ieradās 40 minūtēs. Izglāba mūsu dzīvokli no applūšanas. Paldies!"
   },
   "modal": {
     "successTitle": "Rezervācija apstiprināta!",
