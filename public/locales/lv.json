@@ -6,7 +6,9 @@
   "hero": {
     "badge": "24/7 avārijas dienests",
     "title": "Profesionāli santehnikas pakalpojumi",
-    "subtitle": "Ātra, uzticama santehnika Rīgā. Rezervējiet tiešsaistē, maksājiet 30% avansu."
+    "subtitle": "Ātra, uzticama santehnika Rīgā. Rezervējiet tiešsaistē, maksājiet 30% avansu.",
+    "bookNow": "Rezervēt",
+    "callNow": "Zvanīt"
   },
   "wizard": {
     "step": "Solis",
@@ -120,7 +122,31 @@
     "emailUs": "Rakstiet mums"
   },
   "footer": {
-    "description": "Profesionāli santehnikas pakalpojumi Rīgā. Pieejami 24/7."
+    "description": "Profesionāli santehnikas pakalpojumi Rīgā. Pieejami 24/7.",
+    "photoCredit": "Foto no"
+  },
+  "services": {
+    "title": "Mūsu pakalpojumi",
+    "subtitle": "Profesionāli risinājumi visām jūsu santehnikas vajadzībām",
+    "emergency": "Avārijas",
+    "emergencyTitle": "24/7 avārijas remonts",
+    "emergencyDesc": "Plīsušas caurules, noplūdes, applūšana - mēs esam šeit, kad jums tas visvairāk nepieciešams",
+    "maintenance": "Apkope",
+    "maintenanceTitle": "Remonts un serviss",
+    "maintenanceDesc": "Uzturiet savu santehniku nevainojamā stāvoklī ar regulāru apkopi",
+    "installation": "Uzstādīšana",
+    "installationTitle": "Jaunas uzstādīšanas",
+    "installationDesc": "Profesionāla armatūru, ierīču un sistēmu uzstādīšana"
+  },
+  "why": {
+    "title": "Kāpēc izvēlēties PlumberPro?",
+    "fast": "Ātra reakcija",
+    "fastDesc": "Ierodamies 1 stundas laikā avārijas gadījumos, tajā pašā dienā steidzamiem darbiem",
+    "guaranteed": "Garantēts darbs",
+    "guaranteedDesc": "Visam mūsu darbam ir apmierinātības garantija",
+    "transparent": "Caurskatāmas cenas",
+    "transparentDesc": "Nav slēptu maksu. Maksājiet tikai 30% avansu, atlikumu pēc darba pabeigšanas",
+    "yearsExp": "Gadu pieredze"
   },
   "modal": {
     "successTitle": "Rezervācija apstiprināta!",

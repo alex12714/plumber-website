@@ -126,5 +126,39 @@
     "successTitle": "Booking Confirmed!",
     "successMessage": "Thank you! We've sent a confirmation email. Our team will contact you shortly.",
     "close": "Close"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Professional solutions for all your plumbing needs",
+    "emergency": "Emergency",
+    "emergencyTitle": "24/7 Emergency Repairs",
+    "emergencyDesc": "Burst pipes, leaks, flooding - we're here when you need us most",
+    "maintenance": "Maintenance",
+    "maintenanceTitle": "Repairs & Servicing",
+    "maintenanceDesc": "Keep your plumbing in top condition with regular maintenance",
+    "installation": "Installation",
+    "installationTitle": "New Installations",
+    "installationDesc": "Professional installation of fixtures, appliances & systems"
+  },
+  "why": {
+    "title": "Why Choose PlumberPro?",
+    "fast": "Fast Response",
+    "fastDesc": "We arrive within 1 hour for emergencies, same-day for urgent jobs",
+    "guaranteed": "Guaranteed Work",
+    "guaranteedDesc": "All our work comes with a satisfaction guarantee",
+    "transparent": "Transparent Pricing",
+    "transparentDesc": "No hidden fees. Pay only 30% deposit, rest after job completion",
+    "yearsExp": "Years of Experience"
+  },
+  "hero": {
+    "badge": "24/7 Emergency Service",
+    "title": "Professional Plumbing Services",
+    "subtitle": "Fast, reliable plumbing in Riga. Book online, pay 30% deposit.",
+    "bookNow": "Book Now",
+    "callNow": "Call Now"
+  },
+  "footer": {
+    "description": "Professional plumbing services in Riga. Available 24/7.",
+    "photoCredit": "Photos by"
   }
 }
