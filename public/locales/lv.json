@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "title": "Profesionāli santehnikas pakalpojumi - Rīga, Latvija",
+    "description": "Profesionāli santehnikas pakalpojumi Rīgā. Avārijas remonts, uzstādīšana, kanalizācijas tīrīšana. Pieejams 24/7. Rezervējiet tiešsaistē!"
+  },
+  "hero": {
+    "badge": "24/7 avārijas dienests",
+    "title": "Profesionāli santehnikas pakalpojumi",
+    "subtitle": "Ātra, uzticama santehnika Rīgā. Rezervējiet tiešsaistē, maksājiet 30% avansu."
+  },
+  "wizard": {
+    "step": "Solis",
+    "back": "Atpakaļ",
+    "continue": "Turpināt",
+    "step1": {
+      "title": "Ar ko jums vajadzīga palīdzība?",
+      "subtitle": "Izvēlieties opciju, kas vislabāk apraksta jūsu situāciju",
+      "emergency": "Kaut kas salūza!",
+      "emergencyDesc": "Noplūdes, plīsušas caurules, applūšana, aizsērējuši noteki",
+      "maintenance": "Remonts vai apkope",
+      "maintenanceDesc": "Salabojiet krānu, apkopiet katlu, nomainiet detaļas",
+      "installation": "Jauna uzstādīšana",
+      "installationDesc": "Uzstādiet jaunas armatūras, ierīces, sistēmas"
+    },
+    "step2": {
+      "title": "Kur ir problēma?",
+      "subtitle": "Izvēlieties, kur jums vajadzīga palīdzība"
+    },
+    "step3": {
+      "subtitle": "Izvēlieties visus atbilstošos"
+    },
+    "step4": {
+      "title": "Gandrīz gatavs!",
+      "subtitle": "Pastāstiet mums, kur un kad"
+    },
+    "selectedServices": "Izvēlētie pakalpojumi",
+    "estimatedTotal": "Aptuvena summa",
+    "depositNow": "Maksāt tagad (30% avansa)",
+    "urgency": "Cik steidzami?",
+    "standard": "Standarta",
+    "sameDay": "Tajā pašā dienā",
+    "emergency24": "24/7",
+    "date": "Datums",
+    "time": "Laiks",
+    "name": "Jūsu vārds",
+    "phone": "Tālrunis",
+    "email": "E-pasts",
+    "address": "Pakalpojuma adrese",
+    "description": "Aprakstiet problēmu (neobligāti)",
+    "totalAmount": "Kopējā summa",
+    "payNow": "Maksājiet tagad, lai apstiprinātu",
+    "remainingNote": "Atlikušo summu maksā pēc pakalpojuma pabeigšanas",
+    "payDeposit": "Maksāt avansu",
+    "stripeNote": "Drošs maksājums caur Stripe"
+  },
+  "category": {
+    "pipes": "Caurules un noplūdes",
+    "drains": "Tualete un noteki",
+    "flooding": "Applūšana",
+    "heatingGas": "Apkure un gāze",
+    "tapsFixtures": "Krāni un armatūra",
+    "pipesPressure": "Caurules un spiediens",
+    "drainsMaintenance": "Noteki",
+    "heatingBoilers": "Apkure un katli",
+    "bathroom": "Vannasistaba",
+    "kitchen": "Virtuve",
+    "laundry": "Veļas telpa",
+    "heatingInstall": "Apkure",
+    "outdoor": "Āra"
+  },
+  "service": {
+    "burstPipe": "Plīsušas caurules remonts",
+    "emergencyLeak": "Avārijas noplūdes remonts",
+    "pipeLeak": "Caurules noplūdes remonts",
+    "blockedToilet": "Aizsērējušas tualetes tīrīšana",
+    "blockedDrain": "Aizsērējušas kanalizācijas tīrīšana",
+    "sewageLine": "Notekūdeņu cauruļvadu remonts",
+    "flooding": "Palīdzība applūšanas gadījumā",
+    "boilerRepair": "Katla remonts",
+    "gasLeak": "Gāzes noplūdes noteikšana",
+    "tapRepair": "Krāna remonts",
+    "toiletRepair": "Tualetes remonts",
+    "cisternRepair": "Cisternas remonts",
+    "valveReplacement": "Vārstu nomaiņa",
+    "sealantRepair": "Hermētiķa/šuvju remonts",
+    "waterPressure": "Ūdens spiediena diagnostika",
+    "pipeRerouting": "Cauruļvadu pārvietošana",
+    "drainCleaning": "Kanalizācijas tīrīšana",
+    "drainCamera": "Kanalizācijas pārbaude ar kameru",
+    "boilerService": "Katla apkope",
+    "radiatorRepair": "Radiatora remonts/atgaisošana",
+    "underfloor": "Grīdas apkures apkope",
+    "tapInstall": "Krāna uzstādīšana",
+    "toiletInstall": "Tualetes uzstādīšana",
+    "sinkInstall": "Izlietnes uzstādīšana",
+    "showerInstall": "Dušas uzstādīšana",
+    "bathtubInstall": "Vannas uzstādīšana",
+    "fullBathroom": "Pilna vannasistabas uzstādīšana",
+    "kitchenPlumbing": "Virtuves santehnikas uzstādīšana",
+    "dishwasherConnect": "Trauku mazgājamās mašīnas pieslēgšana",
+    "washingMachine": "Veļas mazgājamās mašīnas pieslēgšana",
+    "waterHeater": "Ūdens sildītāja uzstādīšana",
+    "radiatorInstall": "Radiatora uzstādīšana",
+    "thermostat": "Termostata uzstādīšana",
+    "boilerInstall": "Katla uzstādīšana",
+    "gardenTap": "Dārza krāna uzstādīšana",
+    "irrigation": "Apūdeņošanas sistēmas uzstādīšana",
+    "externalPipe": "Ārējo cauruļu remonts",
+    "waterMeter": "Ūdens skaitītāja problēmas"
+  },
+  "trust": {
+    "years": "Gadu pieredze",
+    "customers": "Apmierināti klienti",
+    "available": "Vienmēr pieejami",
+    "guaranteed": "Apmierinātība"
+  },
+  "contact": {
+    "title": "Sazinieties ar mums",
+    "emergency": "24/7 avārijas",
+    "emailUs": "Rakstiet mums"
+  },
+  "footer": {
+    "description": "Profesionāli santehnikas pakalpojumi Rīgā. Pieejami 24/7."
+  },
+  "modal": {
+    "successTitle": "Rezervācija apstiprināta!",
+    "successMessage": "Paldies! Mēs nosūtījām apstiprinājuma e-pastu. Mūsu komanda drīz sazināsies ar jums.",
+    "close": "Aizvērt"
+  }
+}

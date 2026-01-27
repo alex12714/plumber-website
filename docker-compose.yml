@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  plumber-website:
+    build: .
+    container_name: plumber-sites-onfire-so
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - uploads:/app/uploads
+    networks:
+      - coolify
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.plumber-http.rule=Host(`plumber.sites.onfire.so`)"
+      - "traefik.http.routers.plumber-http.entrypoints=http"
+      - "traefik.http.routers.plumber-http.middlewares=redirect-to-https@file"
+      - "traefik.http.routers.plumber-https.rule=Host(`plumber.sites.onfire.so`)"
+      - "traefik.http.routers.plumber-https.entrypoints=https"
+      - "traefik.http.routers.plumber-https.tls=true"
+      - "traefik.http.routers.plumber-https.tls.certresolver=letsencrypt"
+      - "traefik.http.services.plumber.loadbalancer.server.port=80"
+
+volumes:
+  uploads:
+
+networks:
+  coolify:
+    external: true

@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "title": "Professional Plumbing Services - Riga, Latvia",
+    "description": "Professional plumbing services in Riga. Emergency repairs, installations, drain cleaning. Available 24/7. Book online now!"
+  },
+  "hero": {
+    "badge": "24/7 Emergency Service",
+    "title": "Professional Plumbing Services",
+    "subtitle": "Fast, reliable plumbing in Riga. Book online, pay 30% deposit."
+  },
+  "wizard": {
+    "step": "Step",
+    "back": "Back",
+    "continue": "Continue",
+    "step1": {
+      "title": "What do you need help with?",
+      "subtitle": "Select the option that best describes your situation",
+      "emergency": "Something broke!",
+      "emergencyDesc": "Leaks, burst pipes, flooding, blocked drains",
+      "maintenance": "Repair or maintenance",
+      "maintenanceDesc": "Fix a tap, service boiler, replace parts",
+      "installation": "New installation",
+      "installationDesc": "Install new fixtures, appliances, systems"
+    },
+    "step2": {
+      "title": "What's the problem area?",
+      "subtitle": "Select where you need help"
+    },
+    "step3": {
+      "subtitle": "Choose all that apply"
+    },
+    "step4": {
+      "title": "Almost done!",
+      "subtitle": "Tell us where and when"
+    },
+    "selectedServices": "Selected services",
+    "estimatedTotal": "Estimated total",
+    "depositNow": "Pay now (30% deposit)",
+    "urgency": "How urgent?",
+    "standard": "Standard",
+    "sameDay": "Same Day",
+    "emergency24": "24/7",
+    "date": "Date",
+    "time": "Time",
+    "name": "Your name",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Service address",
+    "description": "Describe the problem (optional)",
+    "totalAmount": "Total amount",
+    "payNow": "Pay now to confirm",
+    "remainingNote": "Remaining balance due after service completion",
+    "payDeposit": "Pay Deposit",
+    "stripeNote": "Secure payment via Stripe"
+  },
+  "category": {
+    "pipes": "Pipes & Leaks",
+    "drains": "Toilet & Drains",
+    "flooding": "Flooding",
+    "heatingGas": "Heating & Gas",
+    "tapsFixtures": "Taps & Fixtures",
+    "pipesPressure": "Pipes & Pressure",
+    "drainsMaintenance": "Drains",
+    "heatingBoilers": "Heating & Boilers",
+    "bathroom": "Bathroom",
+    "kitchen": "Kitchen",
+    "laundry": "Laundry",
+    "heatingInstall": "Heating",
+    "outdoor": "Outdoor"
+  },
+  "service": {
+    "burstPipe": "Burst pipe repair",
+    "emergencyLeak": "Emergency leak repair",
+    "pipeLeak": "Pipe leak repair",
+    "blockedToilet": "Blocked toilet clearing",
+    "blockedDrain": "Blocked drain clearing",
+    "sewageLine": "Sewage line repair",
+    "flooding": "Flooding assistance",
+    "boilerRepair": "Boiler repair",
+    "gasLeak": "Gas leak detection",
+    "tapRepair": "Tap/faucet repair",
+    "toiletRepair": "Toilet repair",
+    "cisternRepair": "Cistern repair",
+    "valveReplacement": "Valve replacement",
+    "sealantRepair": "Sealant/grout repair",
+    "waterPressure": "Water pressure diagnosis",
+    "pipeRerouting": "Pipe rerouting",
+    "drainCleaning": "Drain cleaning",
+    "drainCamera": "Drain camera inspection",
+    "boilerService": "Boiler servicing",
+    "radiatorRepair": "Radiator repair/bleeding",
+    "underfloor": "Underfloor heating service",
+    "tapInstall": "Tap/faucet installation",
+    "toiletInstall": "Toilet installation",
+    "sinkInstall": "Sink installation",
+    "showerInstall": "Shower installation",
+    "bathtubInstall": "Bathtub installation",
+    "fullBathroom": "Full bathroom installation",
+    "kitchenPlumbing": "Kitchen plumbing installation",
+    "dishwasherConnect": "Dishwasher connection",
+    "washingMachine": "Washing machine connection",
+    "waterHeater": "Water heater installation",
+    "radiatorInstall": "Radiator installation",
+    "thermostat": "Thermostat installation",
+    "boilerInstall": "Boiler installation",
+    "gardenTap": "Garden tap installation",
+    "irrigation": "Irrigation system setup",
+    "externalPipe": "External pipe repair",
+    "waterMeter": "Water meter issues"
+  },
+  "trust": {
+    "years": "Years Experience",
+    "customers": "Happy Customers",
+    "available": "Always Available",
+    "guaranteed": "Satisfaction"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "emergency": "24/7 Emergency",
+    "emailUs": "Email us"
+  },
+  "footer": {
+    "description": "Professional plumbing services in Riga. Available 24/7."
+  },
+  "modal": {
+    "successTitle": "Booking Confirmed!",
+    "successMessage": "Thank you! We've sent a confirmation email. Our team will contact you shortly.",
+    "close": "Close"
+  }
+}
